@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Swaggerテスト用タイトル
   description: Swaggerのテスト用です。
-  version: 1.0.0
+  version: 1.0.1
 host: localhost
 schemes:
   - https
