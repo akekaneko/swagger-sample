@@ -1,4 +1,4 @@
-# GitHubフロー図
+# GitHubフロー図(Issueの使用)
 
 ## **概要**
 
