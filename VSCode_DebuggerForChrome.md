@@ -1,17 +1,17 @@
 # VSCode (Visual Studio Code)
 VSCode の機能拡張 Debugger for Chromeで、webページをデバッグ、ステップ実行する
 
-version 1.0.0
+version 1.0.1
 
 ## **インストール・設定**
 
 1. VSCodeのインストール
 
-  以下のサイトよりダウンロードしてインストール
+    以下のサイトよりダウンロードしてインストール
 
-  https://code.visualstudio.com/
+    https://code.visualstudio.com/
 
-  ※今回はversion1.11.1
+    ※今回はversion1.11.1
 
 1. VSCodeを起動する
 
@@ -21,9 +21,9 @@ version 1.0.0
 
 1. プロジェクトディレクトリの作成
 
-  ローカルPCで、プロジェクトディレクトリをどこかに作成する
+    ローカルPCで、プロジェクトディレクトリをどこかに作成する
 
-  例； C:\Users\a_kaneko\Documents\vscode
+    例； C:\Users\a_kaneko\Documents\vscode
 
 1. VSCodeを起動し、ファイルメニュー＞フォルダを開く　よりプロジェクトディレクトリを開く
 
@@ -31,9 +31,9 @@ version 1.0.0
 
 1. 上部の設定アイコンが赤くなっているのでクリックすると選択肢がでるのでChromeを選択
 
-  すると、.vscode/launch.json という設定ファイルが自動生成される
+    すると、.vscode/launch.json という設定ファイルが自動生成される
 
-  ```
+    ```
     {
         "version": "0.2.0",
         "configurations": [
@@ -53,15 +53,15 @@ version 1.0.0
             }
         ]
     }
-  ```
-  launch.json (chrome)
+    ```
+    launch.json (chrome)
 
 1. 設定の名称で
 
-  - Launch Chrome against localhost
-  - Attach to Chrome
+    - Launch Chrome against localhost
+    - Attach to Chrome
 
-  の２つが自動生成される。Attach to ChromeでWebサイトや、ローカルサイト、ローカルファイルのデバッグが可能。
+    の２つが自動生成される。Attach to ChromeでWebサイトや、ローカルサイト、ローカルファイルのデバッグが可能。
 
 **デバッグ許可モードオプションでChrome起動のバッチ作成**
 
@@ -76,32 +76,32 @@ version 1.0.0
 
 1. デバッグ許可モードでChromeを起動
 
-  あらかじめ用意しておいたバッチ
+    あらかじめ用意しておいたバッチ
 
-  C:\Users\a_kaneko\Documents\vscode\chrome_remote_debug.bat
+    C:\Users\a_kaneko\Documents\vscode\chrome_remote_debug.bat
 
-  をダブルクリックし、デバッグ許可モードでChromeを起動（これで起動しないとデバッグできない）
+    をダブルクリックし、デバッグ許可モードでChromeを起動（これで起動しないとデバッグできない）
 
-  ※Chrome側で、デバッグモードで立ち上げたか確認する方法
+    ※Chrome側で、デバッグモードで立ち上げたか確認する方法
 
-  URLの箇所に、chrome://version と打つと、現在のウインドウの状態がでてくるのでコマンドラインの箇所で”--remote-debugging-port=9222"があるか確認
+    URLの箇所に、chrome://version と打つと、現在のウインドウの状態がでてくるのでコマンドラインの箇所で”--remote-debugging-port=9222"があるか確認
 
 1. Chromeにおいて、デバッグしたい画面を表示
 
 1. VSCodeを起動
 
-  デバッグ虫アイコンを押して
-  デバッグの中のプルダウンメニューで、あらかじめ設定している
+    デバッグ虫アイコンを押して
+    デバッグの中のプルダウンメニューで、あらかじめ設定している
 
-  （C:\Users\a_kaneko\Documents\vscode\.vscode\launch.json)
+    （C:\Users\a_kaneko\Documents\vscode\.vscode\launch.json)
 
-  Attach to Chromeを選択し、再生ボタンを押す
+    Attach to Chromeを選択し、再生ボタンを押す
 
 1. ブレークポイントは、ALL Exceptionsを選んでみる
 
-  ※ローカルファイルの検証であればJSを開き、ブレークポイントを追加する
+    ※ローカルファイルの検証であればJSを開き、ブレークポイントを追加する
 
-   (C:\Users\a_kaneko\Documents\vscode\index.html  であれば、./js/test.js にブレークポイントを設定
+     (C:\Users\a_kaneko\Documents\vscode\index.html  であれば、./js/test.js にブレークポイントを設定
 
 1. くるっとした矢印の形の再起動ボタンを押す
 
