@@ -34,4 +34,5 @@ SourceTreeでクローンする際、デフォルトフォルダではなく、�
 ![画像2](https://github.com/akekaneko/swagger-sample/blob/master/images/SourceTreeClone_02.png "画像")
 
 クローンボタンを押すと、以下のフォルダが新規作成される。
+
 C:\xampp\htdocs\swagger\testsample
