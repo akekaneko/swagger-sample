@@ -1,12 +1,12 @@
-# SwaggerUIの使用について
+# Swagger UIの使用について
 
-## SwaggerUIの使用一覧
+## Swagger UIの使用一覧
 1. Swagger UIの起動
 2. APIファイルを読み込む
 3. 用語について
 4. APIの実行
 
-## **1. SwaggerUIの起動**
+## **1. Swagger UIの起動**
 Swagger UIはサーバサイドで動くスクリプトのため、WebServerを起動する。
 WebServerを起動した後、ブラウザからSwagger UIを起動する。
 
