@@ -1,6 +1,6 @@
 Swagger Editorの使用について
 
-# **Swagger Editorの使用一覧**
+## **Swagger Editorの使用一覧**
 1. Swagger Editorを起動する
 2. YAMLファイルをImportする
 3. YAMLを編集する
