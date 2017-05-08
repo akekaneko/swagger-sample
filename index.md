@@ -16,8 +16,8 @@
 
 ## Swagger
 
-1. [SwaggerEditorの使用について][23]
-1. [SwaggerUIの使用について][24]
+1. [Swagger Editorの使用について][23]
+1. [Swagger UIの使用について][24]
 
 ## Visual Studio
 
@@ -35,3 +35,5 @@
 [54_2]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai2_authority.md "リポジトリのユーザー権限について"
 [54_3]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai3_defy.md "GitHubメンバー参加拒否した場合"
 [54_7]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai7_revert.md "間違ってマージをした場合"
+[23]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerEditor.md "Swagger Editorの使用について"
+[24]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md "Swagger UIの使用について"
