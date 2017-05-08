@@ -21,7 +21,7 @@ WebServerを起動した後、ブラウザからSwagger UIを起動する。
 
 メソッド一覧
 
-|CRAD|メソッド名  |
+|CRUD|メソッド名  |
 |---|---|
 |Cretate|POST|
 |Read|GET|
