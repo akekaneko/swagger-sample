@@ -7,13 +7,13 @@ YAMLファイルはGitHubを介し、AさんとBさんと両方で編集する�
 
 [GitHubフロー図(Issueの使用) PDF](https://github.com/akekaneko/swagger-sample/blob/master/GitHubFlow.pdf)
 
-ローカルファイル（エクセル）  
+ローカルファイル (エクセル)   
 \\server02\trainee\a_kaneko\GitHubフローissue版.xlsx
 
 
 ## 手順
 
-管理者（レビュアー）：Aさん  
+管理者 (レビュアー) ：Aさん  
 開発者：Bさん
 
 ### 1. マスターファイルの作成 (Aさん)
@@ -24,7 +24,7 @@ swagger-sample というリポジトリを作成。URLは以下となる。
 
 https://GitHub.com/akekaneko/swagger-sample.git
 
-②GitHub：メンバーの追加（Bさん）
+②GitHub：メンバーの追加 (Bさん) 
 
 対象リポジトリの画面で
 
@@ -36,17 +36,18 @@ Settings＞Collaborators
 
 これにて追加メンバーもリポジトリ更新が可能となる。
 
-③SourceTree：クローン（ローカルリポジトリ作成）
+③SourceTree：クローン (ローカルリポジトリ作成) 
 
 GitHubの以下のリポジトリをクローンする。
+
 https://github.com/akekaneko/swagger-sample.git
 
 メモ：
 
 - ローカルにswagger-sampleという空フォルダを作成し、そこにクローンするフォルダ名は別名でもクローン可能。
 - 途中でリポジトリ名変えられるか？＞変えられる。  
-リモート側（Settings>Repository Name)  
-ローカル側 (SourceTreeの場合 Settings>リモートリポジトリのパス編集"
+リモート側 (Settings>Repository Name)  
+ローカル側 (SourceTreeの場合 Settings>リモートリポジトリのパス編集)
 
 ④masterブランチでswagger.yamlを新規作成
 
@@ -64,7 +65,7 @@ http://localhost/swagger/swagger-sample
 
 ①GitHub：issue追加
 
-②SourceTree：クローン（ローカルリポジトリ作成）
+②SourceTree：クローン (ローカルリポジトリ作成) 
 
 ③SourceTree：新規ブランチ作成 (issue-[issue番号])
 
@@ -86,7 +87,7 @@ versionは1.0.1にする
 
 ⑦GitHub：Pull Requestをする
 
-⑧GitHub：メンバーで討論 （→④→⑤→⑥→⑧を繰り返す）
+⑧GitHub：メンバーで討論  (→④→⑤→⑥→⑧を繰り返す) 
 
 ⑨GitHub：新規ブランチをmasterブランチへマージ(Aさん)
 
@@ -117,7 +118,7 @@ versionは1.0.2にする
 
 ⑦GitHub：Pull Requestをする
 
-⑧GitHub：メンバーで討論 （→④→⑤→⑥→⑧を繰り返す）
+⑧GitHub：メンバーで討論  (→④→⑤→⑥→⑧を繰り返す) 
 
 ⑨GitHub：新規ブランチをmasterブランチへマージ(自分)
 
