@@ -19,13 +19,13 @@ https://github.com/skywinder/Github-Changelog-Generator/edit/master/CHANGELOG.md
     - バグ報告：概要(why/what)、実行環境、再現手順、期待される結果、解決方法(How)、終了条件
     - その他： タスク一覧、対象ファイル、親課題、関連課題、修正依頼担当、プルリク担当、備考、等
 
-** 問題の背景や理由(why)がIssue内に明確にあればChangeLogからたどった時に理解しやすい **
+**問題の背景や理由(why)がIssue内に明確にあればChangeLogからたどった時に理解しやすい**
 
 - タグをつける
     - 必要であればオリジナルタグを作成する。Bootstrapはよい例かもしれない  
 [※Issueの参考例（Bootstrap)](https://github.com/twbs/bootstrap/issues)
 
-** タグをつけることで、ChangeLogを書くときに問題の分類がしやすくなる？ **
+**タグをつけることで、ChangeLogを書くときに問題の分類がしやすくなる？**
 
 - 担当者への通知方法
   - Assigneesに追加する(10人まで) ※Issue作成者は登録不要
@@ -62,5 +62,5 @@ https://github.com/akekaneko/swagger-test/releases
 
 参考
 
--　http://dev.classmethod.jp/tool/git/github-issue-driven-dev/　
+-　http://dev.classmethod.jp/tool/git/github-issue-driven-dev/
 -　http://qiita.com/awakia/items/c571e93e96a1ec28044f#%E6%A8%99%E6%BA%96%E7%9A%84%E3%81%AA%E3%83%95%E3%83%AD%E3%83%BC
