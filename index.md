@@ -12,8 +12,8 @@
 1. [ブランチ名かぶり][14]
 1. [間違ってマージをした場合][54_7]
 1. [GitHubフロー(Issueの使用)][11]
-1. [ChangeLogから、変更履歴と変更理由を明確化するためには？][]
-1. [リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？][]
+1. [ChangeLogから、変更履歴と変更理由を明確化するためには？][72_1]
+1. [リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？][72_2]
 
 ## Swagger
 
@@ -38,5 +38,5 @@
 [54_7]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai7_revert.md "間違ってマージをした場合"
 [23]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerEditor.md "Swagger Editorの使用につい[て"
 [24]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md "Swagger UIの使用について"
-[]https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md ChangeLogから、変更履歴と変更理由を明確化するためには？
-[]https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？
+[72_1]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMake.md "ChangeLogから、変更履歴と変更理由を明確化するためには？"
+[72_2]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubRemoteBranchClone.md "リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？"
