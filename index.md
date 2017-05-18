@@ -42,5 +42,5 @@
 [24]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md "Swagger UIの使用について"
 [72_1]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMake.md "ChangeLogから、変更履歴と変更理由を明確化するためには？"
 [72_2]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubRemoteBranchClone.md "リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？"
-[78_1]:https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMakeSample.md　"Issue作成、コミット、プルリク、リリース、ChangeLog作成までの流れを試す
-[78_2]:https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMakeSampleTrial.md "Issue作成、コミット、プルリク、リリース、ChangeLog作成の逆の流れを試す""
+[78_1]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMakeSample.md　"Issue作成、コミット、プルリク、リリース、ChangeLog作成までの流れを試す"
+[78_2]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMakeSampleTrial.md "Issue作成、コミット、プルリク、リリース、ChangeLog作成の逆の流れを試す"
