@@ -14,6 +14,9 @@
 1. [GitHubフロー(Issueの使用)][11]
 1. [ChangeLogから、変更履歴と変更理由を明確化するためには？][72_1]
 1. [リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？][72_2]
+1. [Issue作成、コミット、プルリク、リリース、ChangeLog作成までの流れを試す][78_1]
+1. [Issue作成、コミット、プルリク、リリース、ChangeLog作成の逆の流れを試す][78_2]
+
 
 ## Swagger
 
@@ -36,7 +39,7 @@
 [54_2]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai2_authority.md "リポジトリのユーザー権限について"
 [54_3]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai3_defy.md "GitHubメンバー参加拒否した場合"
 [54_7]: https://github.com/akekaneko/swagger-sample/blob/master/Github_kadai7_revert.md "間違ってマージをした場合"
-[23]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerEditor.md "Swagger Editorの使用につい[て"
+[23]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerEditor.md "Swagger Editorの使用について"
 [24]: https://github.com/akekaneko/swagger-sample/blob/master/SwaggerUI.md "Swagger UIの使用について"
 [72_1]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubIssueHowToMake.md "ChangeLogから、変更履歴と変更理由を明確化するためには？"
 [72_2]: https://github.com/akekaneko/swagger-sample/blob/master/GitHubRemoteBranchClone.md "リモート側で新規ブランチを作成した場合、ローカルに持ってくる方法はあるか？"
