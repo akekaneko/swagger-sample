@@ -29,7 +29,7 @@ https://github.com/skywinder/Github-Changelog-Generator/edit/master/CHANGELOG.md
 
 - 担当者への通知方法
   - Assigneesに追加する(10人まで) ※Issue作成者は登録不要
-  - 本文にメンション(@ユーザ名)を追加するとユーザ宛にメールが送信される　＞Assigneesに統一する方向で
+  - 本文にメンション(@ユーザ名)を追加するとユーザ宛にメールが送信される
 
 - GitHubでは、ルートに ISSUE_TEMPLATE.md というファイルを置くとテンプレートとして読み込むことができる
 
@@ -44,17 +44,6 @@ https://github.com/skywinder/Github-Changelog-Generator/edit/master/CHANGELOG.md
 - マージ後issueを自動クローズさせる場合は Close #[issue番号]をつける
 - 修正完了となったら[WIP]をとる
 
-- Review機能について
-  - Pull Requestに対して、総評という形でReviewを書くことができる
-  - Reviewの種別
-    - Comment: 軽微な指摘、コメント
-    - Approve: 承認
-    - Request Change: 修正依頼
-  - Request Changeが付いたPull Requestは、AdminもしくはRepository Owner以外は、修正しないとMergeできない
-  - Pull Requestに対して、Reviewを必須にできる
-  - 必須にした場合、ReviewがないPull RequestはMergeできなくなる
-  - 自分自身に対してはコメント以外のレビューは投稿不可
-
 ## マージ＆リリース
 
 - レビュワーはマージを行う
@@ -66,10 +55,12 @@ https://github.com/akekaneko/swagger-test/releases
 
 
 - 不明点
-  - リリースバージョンにまつわるissueは検索できない
+  - 変更履歴作成について、手動の場合効率よく作成する方法がわからない
+  - バージョンにまつわるissueは検索できない
+  - バージョンをマージしたissueとプルリクを検索し、まとめるしかない？
   - fix bugとclose issueがだぶってしまう内容もあるがいいのか？
 
-## 参考
+参考
 
-- http://dev.classmethod.jp/tool/git/github-issue-driven-dev/
-- http://qiita.com/awakia/items/c571e93e96a1ec28044f#%E6%A8%99%E6%BA%96%E7%9A%84%E3%81%AA%E3%83%95%E3%83%AD%E3%83%BC
+-　http://dev.classmethod.jp/tool/git/github-issue-driven-dev/
+-　http://qiita.com/awakia/items/c571e93e96a1ec28044f#%E6%A8%99%E6%BA%96%E7%9A%84%E3%81%AA%E3%83%95%E3%83%AD%E3%83%BC
